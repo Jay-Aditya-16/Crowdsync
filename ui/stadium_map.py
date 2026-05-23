@@ -168,7 +168,7 @@ def build_map_figure(
 
     fig = go.Figure(data=[heat, zones_trace, gates_trace])
     fig.update_layout(
-        title=dict(text=title, font=dict(color="white", size=14)),
+        title=dict(text=title, font=dict(color="#0A0A0A", size=14)),
         mapbox=dict(
             style="open-street-map",
             center=dict(lat=CENTER_LAT, lon=CENTER_LON),
@@ -176,7 +176,7 @@ def build_map_figure(
         ),
         margin=dict(l=0, r=0, t=30, b=0),
         height=height,
-        paper_bgcolor="#0F1B2A",
+        paper_bgcolor="#EFEDE7",
         showlegend=False,
     )
     return fig

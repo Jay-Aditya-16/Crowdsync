@@ -52,7 +52,14 @@ TICK_MS = 5000  # 5-second wall clock
 if not render_login():
     st.stop()
 
-st.set_page_config(page_title="CrowdSync — Live Ops", layout="wide", page_icon="🏟️")
+st.set_page_config(page_title="Stadnium AI — Stadium Command", layout="wide", page_icon="🏟️")
+
+from ui.theme import inject_css, render_header
+inject_css()
+render_header(
+    operator_name=st.session_state.get("operator_name", "Operator"),
+    operator_role=st.session_state.get("operator_role", "Command"),
+)
 
 # Ensure Commander knows the current operator email on every rerun (session_state
 # survives, module globals may not in some hot-reload paths).
@@ -326,10 +333,10 @@ with st.sidebar:
     op_role = st.session_state.get("operator_role", "—")
     st.markdown(
         f"""
-        <div style='background:#1B2838; border-radius:6px; padding:8px 10px; margin-bottom:8px;'>
-          <div style='color:white; font-weight:600;'>👤 {op_name}</div>
-          <div style='color:#9BB0C4; font-size:12px;'>{op_role}</div>
-          <div style='color:#5BD96B; font-size:12px;'>📧 {op_email}</div>
+        <div style='background:#FFFFFF; border-radius:18px; box-shadow:0 4px 18px rgba(20,20,20,0.06); padding:12px 14px; margin-bottom:10px;'>
+          <div style='color:#0A0A0A; font-weight:700;'>{op_name}</div>
+          <div style='color:#8E8C87; font-size:12px;'>{op_role}</div>
+          <div style='color:#E85A3B; font-size:12px; margin-top:3px;'>{op_email}</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -465,7 +472,7 @@ with twin_cols[1]:
             pct = z["p_crush"]
             color = "#E94B4B" if pct >= 0.5 else ("#F5A623" if pct >= 0.2 else "#7ED321")
             st.markdown(
-                f"<div style='padding:6px 10px; margin:4px 0; background:#1B2838; border-left:4px solid {color}; border-radius:4px; color:white;'>"
+                f"<div style='padding:10px 14px; margin:6px 0; background:#FFFFFF; border-radius:18px; box-shadow:0 4px 18px rgba(20,20,20,0.06); border-left:4px solid {color}; color:#0A0A0A;'>"
                 f"<b>{z['zone_id']}</b> · Crush risk: <span style='color:{color}; font-weight:700;'>{pct:.1%}</span></div>",
                 unsafe_allow_html=True,
             )
@@ -498,10 +505,10 @@ with mid_cols[0]:
         for t in (intel_result.get("threats") or []):
             sev_color = {"low": "#5BD96B", "medium": "#F5A623", "high": "#E94B4B", "critical": "#9B1C1C"}.get(t.get("severity", "low"), "#5BD96B")
             st.markdown(
-                f"<div style='padding:6px 10px; margin:4px 0; background:#1B2838; border-left:4px solid {sev_color}; border-radius:4px; color:white;'>"
+                f"<div style='padding:10px 14px; margin:6px 0; background:#FFFFFF; border-radius:18px; box-shadow:0 4px 18px rgba(20,20,20,0.06); border-left:4px solid {sev_color}; color:#0A0A0A;'>"
                 f"<b>{t.get('category','?')}</b>: {t.get('title','')}<br>"
-                f"<span style='color:#9BB0C4; font-size:12px;'>{t.get('summary','')}</span><br>"
-                f"<span style='color:#5BD96B; font-size:12px;'>→ {t.get('recommended_action','')}</span></div>",
+                f"<span style='color:#8E8C87; font-size:12px;'>{t.get('summary','')}</span><br>"
+                f"<span style='color:#E85A3B; font-size:12px;'>→ {t.get('recommended_action','')}</span></div>",
                 unsafe_allow_html=True,
             )
     else:
@@ -518,9 +525,9 @@ with mid_cols[1]:
         for p in (predictions.get("predictions") or [])[:6]:
             sev_color = {"low": "#5BD96B", "medium": "#F5A623", "high": "#E94B4B", "critical": "#9B1C1C"}.get(p.get("severity", "low"), "#5BD96B")
             st.markdown(
-                f"<div style='padding:6px 10px; margin:4px 0; background:#1B2838; border-left:4px solid {sev_color}; border-radius:4px; color:white;'>"
-                f"<b>{p['zone_id']}</b> · {p.get('expected_density_pct','?')}% in {p.get('minutes_until_peak','?')} min<br>"
-                f"<span style='color:#9BB0C4; font-size:12px;'>{p.get('driver','')}</span></div>",
+                f"<div style='padding:10px 14px; margin:6px 0; background:#FFFFFF; border-radius:18px; box-shadow:0 4px 18px rgba(20,20,20,0.06); border-left:4px solid {sev_color}; color:#0A0A0A;'>"
+                f"<b>{p['zone_id']}</b> · <span style='font-weight:700;'>{p.get('expected_density_pct','?')}%</span> in {p.get('minutes_until_peak','?')} min<br>"
+                f"<span style='color:#8E8C87; font-size:12px;'>{p.get('driver','')}</span></div>",
                 unsafe_allow_html=True,
             )
     else:
@@ -889,10 +896,11 @@ with fan_col:
         st.markdown("**🏆 Top reporters**")
         for rank, p in enumerate(leaders, 1):
             st.markdown(
-                f"<div style='padding:4px 8px; background:#1B2838; border-left:3px solid #5BD96B; "
-                f"border-radius:4px; color:white; font-size:13px; margin-bottom:3px;'>"
-                f"#{rank} <b>{p['reporter_id']}</b> · {p['points']} pts · "
-                f"{p['reports']} reports · <i>{p['badge']}</i></div>",
+                f"<div style='padding:10px 14px; background:#FFFFFF; border-radius:18px; box-shadow:0 4px 18px rgba(20,20,20,0.06); "
+                f"border-left:3px solid #E85A3B; color:#0A0A0A; font-size:13px; margin-bottom:6px;'>"
+                f"<span style='color:#8E8C87;'>#{rank:02d}</span> "
+                f"<b>{p['reporter_id']}</b> · <span style='font-weight:700;'>{p['points']}</span> pts · "
+                f"{p['reports']} reports · <i style='color:#8E8C87;'>{p['badge']}</i></div>",
                 unsafe_allow_html=True,
             )
 
@@ -904,7 +912,7 @@ with fan_col:
                 st.markdown(
                     f"{tag} `{r['report_id']}` · **{r['category']}** in {r['zone']} · "
                     f"+{r['points_awarded']}pts · {r['submitted_at']}<br>"
-                    f"<span style='color:#9BB0C4; font-size:12px;'>{r['summary']}</span>",
+                    f"<span style='color:#8E8C87; font-size:12px;'>{r['summary']}</span>",
                     unsafe_allow_html=True,
                 )
 

@@ -230,7 +230,7 @@ def build_3d_figure(
 
     fig = go.Figure(data=traces)
     fig.update_layout(
-        title=dict(text=title, font=dict(color="white", size=14)),
+        title=dict(text=title, font=dict(color="#0A0A0A", size=14)),
         scene=dict(
             xaxis=dict(visible=False, range=[0, 100]),
             yaxis=dict(visible=False, range=[0, 100]),
@@ -238,9 +238,9 @@ def build_3d_figure(
             aspectmode="manual",
             aspectratio=dict(x=1, y=1, z=0.4),
             camera=dict(eye=dict(x=1.4, y=-1.4, z=1.1)),
-            bgcolor="#0F1B2A",
+            bgcolor="#EFEDE7",
         ),
-        paper_bgcolor="#0F1B2A",
+        paper_bgcolor="#EFEDE7",
         margin=dict(l=0, r=0, t=30, b=0),
         height=height,
         showlegend=False,
