@@ -1,0 +1,38 @@
+{
+  "tickets": [
+    {"ticket_id": "T0001", "name": "Demo Fan A", "email": "sillyconcept612@agentmail.to", "zone": "A_STAND", "seat": "A-12-23", "gate_assigned": "G7", "language": "en", "is_demo": true},
+    {"ticket_id": "T0002", "name": "Demo Fan B", "email": "youthfulunion707@agentmail.to", "zone": "A_STAND", "seat": "A-14-08", "gate_assigned": "G6", "language": "en", "is_demo": true},
+    {"ticket_id": "T0003", "name": "Aditi Rao", "email": "synthetic+t0003@agentmail.to", "zone": "CLUB_HOUSE", "seat": "CH-A-12", "gate_assigned": "G18", "language": "en", "is_demo": false},
+    {"ticket_id": "T0004", "name": "Aarav Sharma", "email": "synthetic+t0004@agentmail.to", "zone": "N_STAND", "seat": "N-15-12", "gate_assigned": "G14", "language": "hi", "is_demo": false},
+    {"ticket_id": "T0005", "name": "Priya Iyer", "email": "synthetic+t0005@agentmail.to", "zone": "C_LOWER", "seat": "CL-16-04", "gate_assigned": "G17", "language": "en", "is_demo": false},
+    {"ticket_id": "T0006", "name": "Rohan Kapoor", "email": "synthetic+t0006@agentmail.to", "zone": "P2_STAND", "seat": "P2-08-22", "gate_assigned": "G4", "language": "en", "is_demo": false},
+    {"ticket_id": "T0007", "name": "Sneha Reddy", "email": "synthetic+t0007@agentmail.to", "zone": "P3_STAND", "seat": "P3-09-15", "gate_assigned": "G5", "language": "en", "is_demo": false},
+    {"ticket_id": "T0008", "name": "Vikram Singh", "email": "synthetic+t0008@agentmail.to", "zone": "A_STAND", "seat": "A-20-09", "gate_assigned": "G7", "language": "hi", "is_demo": false},
+    {"ticket_id": "T0009", "name": "Ananya Gupta", "email": "synthetic+t0009@agentmail.to", "zone": "G_UPPER", "seat": "GU-B-05", "gate_assigned": "G18", "language": "en", "is_demo": false},
+    {"ticket_id": "T0010", "name": "Karthik Menon", "email": "synthetic+t0010@agentmail.to", "zone": "P_CORPORATE", "seat": "PC-A-18", "gate_assigned": "G3", "language": "en", "is_demo": false},
+    {"ticket_id": "T0011", "name": "Sanjana Iyer", "email": "synthetic+t0011@agentmail.to", "zone": "B_UPPER", "seat": "BU-04-15", "gate_assigned": "G13", "language": "en", "is_demo": false},
+    {"ticket_id": "T0012", "name": "Manish Bhat", "email": "synthetic+t0012@agentmail.to", "zone": "M3_STAND", "seat": "M3-07-21", "gate_assigned": "G19", "language": "en", "is_demo": false}
+  ],
+  "zone_distribution": {
+    "A_STAND": 8000,
+    "B_UPPER": 2400,
+    "B_LOWER": 1800,
+    "C_UPPER": 2800,
+    "C_LOWER": 2400,
+    "G_UPPER": 2600,
+    "G_LOWER": 2200,
+    "N_STAND": 2200,
+    "M4_STAND": 2000,
+    "M3_STAND": 1800,
+    "M1_STAND": 1600,
+    "M2_M3_ANNEX": 1200,
+    "CLUB_HOUSE": 600,
+    "P_CORPORATE": 1500,
+    "PAVILION_TERRACE": 1200,
+    "P1_STAND": 1800,
+    "P2_STAND": 2200,
+    "P3_STAND": 2400,
+    "P4_STAND": 1800
+  },
+  "note": "12 sample tickets shown across Chinnaswamy zones. First 2 are real AgentMail inboxes used in live demo. Production scales to 40k via Pub/Sub queue."
+}

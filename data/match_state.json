@@ -1,0 +1,70 @@
+{
+  "match_id": "LIVE_LSG_vs_PBKS",
+  "teams": {
+    "home": "LSG",
+    "away": "PBKS"
+  },
+  "venue": "M. Chinnaswamy Stadium, Bengaluru",
+  "format": "T20",
+  "current_innings": 1,
+  "current_over": 1,
+  "current_ball": 5,
+  "score": {
+    "runs": null,
+    "wickets": null,
+    "target": null
+  },
+  "balls_remaining": 12,
+  "wickets_in_hand": 2,
+  "required_run_rate": 0.95,
+  "weather": {
+    "condition": "partly_cloudy",
+    "temp_c": 28,
+    "humidity": 72,
+    "rain_probability_pct": 35,
+    "wind_kmh": 10
+  },
+  "attendance": 38500,
+  "next_events": [
+    {
+      "type": "innings_break_expected",
+      "minutes_from_now": -1,
+      "note": "innings 2 in progress"
+    },
+    {
+      "type": "match_end_expected",
+      "minutes_from_now": 14
+    }
+  ],
+  "recent_events": [
+    {
+      "over": 18,
+      "ball": 6,
+      "event": "wicket",
+      "description": "Wicket falls (demo advance)"
+    },
+    {
+      "over": 17,
+      "ball": 3,
+      "event": "wicket",
+      "description": "Virat Kohli caught at deep mid-wicket"
+    },
+    {
+      "over": 16,
+      "ball": 6,
+      "event": "boundary",
+      "description": "SIX over long-on"
+    },
+    {
+      "over": 15,
+      "ball": 4,
+      "event": "wicket",
+      "description": "Rajat Patidar bowled"
+    }
+  ],
+  "refresh_meta": {
+    "status": "ok",
+    "url": "https://www.cricbuzz.com/cricket-match/live-scores",
+    "source": "cache"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "normal.mp4": {
+    "density_pct": 32,
+    "trend": "stable",
+    "anomalies": [],
+    "confidence": 0.91,
+    "summary": "Sparse crowd. Free-flowing movement. No safety concerns."
+  },
+  "dense.mp4": {
+    "density_pct": 78,
+    "trend": "rising",
+    "anomalies": ["bottleneck_near_exit"],
+    "confidence": 0.86,
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting."
+  },
+  "panic.mp4": {
+    "density_pct": 91,
+    "trend": "rising_fast",
+    "anomalies": ["rapid_movement", "directional_chaos", "possible_fall"],
+    "confidence": 0.79,
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE."
+  }
+}

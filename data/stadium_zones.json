@@ -1,0 +1,73 @@
+{
+  "stadium_name": "M. Chinnaswamy Stadium",
+  "location": "Bengaluru, India",
+  "capacity": 40000,
+  "geometry": {
+    "center": {"x": 50, "y": 50},
+    "pitch_radius": 8,
+    "inner_radius": 15,
+    "outer_radius": 30,
+    "boundary_box": {"min_x": 8, "max_x": 92, "min_y": 8, "max_y": 92}
+  },
+  "zones": [
+    {"id": "PITCH", "name": "Pitch", "type": "field", "capacity": 30, "x": 50, "y": 50, "angle_deg": 0, "span_deg": 360, "r_inner": 0, "r_outer": 8, "gates": [], "color": "#A8D982"},
+    {"id": "N_STAND", "name": "N Stand", "type": "stand", "capacity": 2200, "x": 50, "y": 28, "angle_deg": 0, "span_deg": 28, "r_inner": 15, "r_outer": 22, "gates": ["G14", "G16"], "color": "#F4A6A0"},
+    {"id": "C_UPPER", "name": "C Upper Stand", "type": "stand", "capacity": 2800, "x": 64, "y": 30, "angle_deg": 50, "span_deg": 30, "r_inner": 22, "r_outer": 30, "gates": ["G16", "G17"], "color": "#3A4FC7"},
+    {"id": "C_LOWER", "name": "C Lower Stand", "type": "stand", "capacity": 2400, "x": 60, "y": 35, "angle_deg": 45, "span_deg": 25, "r_inner": 15, "r_outer": 22, "gates": ["G17"], "color": "#F2D547"},
+    {"id": "G_UPPER", "name": "G Upper Stand", "type": "stand", "capacity": 2600, "x": 71, "y": 44, "angle_deg": 80, "span_deg": 25, "r_inner": 22, "r_outer": 30, "gates": ["G17", "G18"], "color": "#3DC7AE"},
+    {"id": "G_LOWER", "name": "G Lower Stand", "type": "stand", "capacity": 2200, "x": 67, "y": 46, "angle_deg": 80, "span_deg": 25, "r_inner": 15, "r_outer": 22, "gates": ["G18"], "color": "#7AD8C9"},
+    {"id": "M4_STAND", "name": "M4 Stand", "type": "stand", "capacity": 2000, "x": 70, "y": 55, "angle_deg": 110, "span_deg": 22, "r_inner": 15, "r_outer": 22, "gates": ["G18", "G19"], "color": "#56B8D6"},
+    {"id": "M3_STAND", "name": "M3 Stand", "type": "stand", "capacity": 1800, "x": 70, "y": 60, "angle_deg": 125, "span_deg": 20, "r_inner": 15, "r_outer": 22, "gates": ["G19"], "color": "#1F8FA8"},
+    {"id": "M1_STAND", "name": "M1 Stand", "type": "stand", "capacity": 1600, "x": 65, "y": 63, "angle_deg": 140, "span_deg": 18, "r_inner": 15, "r_outer": 22, "gates": ["G19"], "color": "#F4A06A"},
+    {"id": "M2_M3_ANNEX", "name": "M2 / M3 Annex", "type": "stand", "capacity": 1200, "x": 62, "y": 66, "angle_deg": 152, "span_deg": 14, "r_inner": 15, "r_outer": 22, "gates": ["G19", "G20"], "color": "#E8946C"},
+    {"id": "CLUB_HOUSE", "name": "Club House", "type": "premium", "capacity": 600, "x": 75, "y": 55, "angle_deg": 105, "span_deg": 10, "r_inner": 22, "r_outer": 27, "gates": ["G18"], "color": "#D0A0D0"},
+    {"id": "P_CORPORATE", "name": "P Corporate", "type": "premium", "capacity": 1500, "x": 50, "y": 75, "angle_deg": 180, "span_deg": 35, "r_inner": 22, "r_outer": 27, "gates": ["G3", "G4"], "color": "#A8D8E0"},
+    {"id": "PAVILION_TERRACE", "name": "Pavilion Terrace", "type": "premium", "capacity": 1200, "x": 50, "y": 70, "angle_deg": 180, "span_deg": 30, "r_inner": 15, "r_outer": 22, "gates": ["G3", "G4"], "color": "#7FC9D8"},
+    {"id": "P1_STAND", "name": "P1 Stand", "type": "stand", "capacity": 1800, "x": 56, "y": 67, "angle_deg": 165, "span_deg": 14, "r_inner": 15, "r_outer": 22, "gates": ["G4", "G5"], "color": "#3A6FB8"},
+    {"id": "P2_STAND", "name": "P2 Stand", "type": "stand", "capacity": 2200, "x": 56, "y": 76, "angle_deg": 170, "span_deg": 20, "r_inner": 22, "r_outer": 30, "gates": ["G4", "G5"], "color": "#5A8FD8"},
+    {"id": "P3_STAND", "name": "P3 Stand", "type": "stand", "capacity": 2400, "x": 42, "y": 78, "angle_deg": 200, "span_deg": 22, "r_inner": 22, "r_outer": 30, "gates": ["G5", "G6"], "color": "#56B8D6"},
+    {"id": "P4_STAND", "name": "P4 Stand", "type": "stand", "capacity": 1800, "x": 38, "y": 68, "angle_deg": 200, "span_deg": 15, "r_inner": 15, "r_outer": 22, "gates": ["G6"], "color": "#3A6FB8"},
+    {"id": "A_STAND", "name": "A Stand (sections 1-19)", "type": "stand", "capacity": 8000, "x": 25, "y": 50, "angle_deg": 270, "span_deg": 110, "r_inner": 15, "r_outer": 30, "gates": ["G6", "G7", "G8"], "color": "#C73E80"},
+    {"id": "B_LOWER", "name": "B Lower Stand", "type": "stand", "capacity": 1800, "x": 36, "y": 33, "angle_deg": 325, "span_deg": 22, "r_inner": 15, "r_outer": 22, "gates": ["G12"], "color": "#9DC650"},
+    {"id": "B_UPPER", "name": "B Upper Stand", "type": "stand", "capacity": 2400, "x": 32, "y": 28, "angle_deg": 325, "span_deg": 26, "r_inner": 22, "r_outer": 30, "gates": ["G12", "G13"], "color": "#9DC650"}
+  ],
+  "gates": [
+    {"id": "G1", "x": 23, "y": 88, "side": "south-west", "road": "Queen's Road", "kind": "entry", "is_open": true, "throughput_per_min": 60},
+    {"id": "G2", "x": 22, "y": 82, "side": "west", "road": "Queen's Road", "kind": "entry", "is_open": true, "throughput_per_min": 60},
+    {"id": "G3", "x": 21, "y": 76, "side": "west", "road": "Queen's Road", "kind": "entry", "is_open": true, "throughput_per_min": 80},
+    {"id": "G4", "x": 19, "y": 70, "side": "west", "road": "Queen's Road", "kind": "main", "is_open": true, "throughput_per_min": 120},
+    {"id": "G5", "x": 17, "y": 62, "side": "west", "road": "Queen's Road", "kind": "main", "is_open": true, "throughput_per_min": 120},
+    {"id": "G6", "x": 15, "y": 53, "side": "west", "road": "Queen's Road", "kind": "main", "is_open": true, "throughput_per_min": 120},
+    {"id": "G7", "x": 15, "y": 45, "side": "west", "road": "Queen's Road", "kind": "main", "is_open": true, "throughput_per_min": 100},
+    {"id": "G8", "x": 17, "y": 37, "side": "west", "road": "Queen's Road", "kind": "entry", "is_open": true, "throughput_per_min": 80},
+    {"id": "G9", "x": 22, "y": 22, "side": "north-west", "road": "Minsk Square", "kind": "entry", "is_open": true, "throughput_per_min": 60},
+    {"id": "G12", "x": 34, "y": 16, "side": "north", "road": "Cubbon Road", "kind": "entry", "is_open": true, "throughput_per_min": 80},
+    {"id": "G13", "x": 40, "y": 14, "side": "north", "road": "Cubbon Road", "kind": "entry", "is_open": true, "throughput_per_min": 80},
+    {"id": "G14", "x": 50, "y": 13, "side": "north", "road": "Cubbon Road", "kind": "main", "is_open": true, "throughput_per_min": 100},
+    {"id": "G16", "x": 60, "y": 14, "side": "north", "road": "Cubbon Road", "kind": "main", "is_open": true, "throughput_per_min": 100},
+    {"id": "G17", "x": 78, "y": 25, "side": "north-east", "road": "Link Road", "kind": "entry", "is_open": true, "throughput_per_min": 80},
+    {"id": "G18", "x": 82, "y": 38, "side": "east", "road": "Link Road", "kind": "main", "is_open": true, "throughput_per_min": 100},
+    {"id": "G19", "x": 84, "y": 56, "side": "east", "road": "Link Road", "kind": "main", "is_open": true, "throughput_per_min": 100},
+    {"id": "G20", "x": 80, "y": 70, "side": "south-east", "road": "MG Road", "kind": "entry", "is_open": true, "throughput_per_min": 80},
+    {"id": "G21", "x": 73, "y": 80, "side": "south-east", "road": "MG Road", "kind": "entry", "is_open": true, "throughput_per_min": 80}
+  ],
+  "landmarks": [
+    {"name": "Minsk Square", "x": 12, "y": 14},
+    {"name": "BRV Junction", "x": 87, "y": 14},
+    {"name": "Anil Kumble Circle", "x": 87, "y": 87},
+    {"name": "Queen's Circle", "x": 32, "y": 90},
+    {"name": "Mahatma Gandhi Park", "x": 55, "y": 90},
+    {"name": "B Ground", "x": 18, "y": 28},
+    {"name": "Club House", "x": 75, "y": 55}
+  ],
+  "amenities": [
+    {"zone": "N_STAND", "restrooms": 6, "concessions": 4},
+    {"zone": "A_STAND", "restrooms": 18, "concessions": 12},
+    {"zone": "C_LOWER", "restrooms": 6, "concessions": 4},
+    {"zone": "G_LOWER", "restrooms": 6, "concessions": 4},
+    {"zone": "P_CORPORATE", "restrooms": 4, "concessions": 4},
+    {"zone": "P2_STAND", "restrooms": 6, "concessions": 4},
+    {"zone": "P3_STAND", "restrooms": 6, "concessions": 4},
+    {"zone": "B_UPPER", "restrooms": 6, "concessions": 4}
+  ]
+}

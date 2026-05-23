@@ -1,0 +1,1219 @@
+[
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779523472241",
+    "timestamp": "2026-05-23T08:04:32.241562Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779523467234",
+    "timestamp": "2026-05-23T08:04:27.234186Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779523293374",
+    "timestamp": "2026-05-23T08:01:33.374653Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779523286146",
+    "timestamp": "2026-05-23T08:01:26.146958Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779522902342",
+    "timestamp": "2026-05-23T07:55:02.342085Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779522692967",
+    "timestamp": "2026-05-23T07:51:32.967748Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779522313707",
+    "timestamp": "2026-05-23T07:45:13.707106Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779522299415",
+    "timestamp": "2026-05-23T07:44:59.415532Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779521851355",
+    "timestamp": "2026-05-23T07:37:31.355573Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779521835066",
+    "timestamp": "2026-05-23T07:37:15.066516Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779520672892",
+    "timestamp": "2026-05-23T07:17:52.892865Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: gemini-fallback 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20,)\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779520668472",
+    "timestamp": "2026-05-23T07:17:48.472229Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "1. Dispatch medics to zone A_STAND. [AUTO]\n2. Clear nearest access corridor. [NEEDS APPROVAL]\n3. Notify first-aid post. [AUTO]",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779520248646",
+    "timestamp": "2026-05-23T07:10:48.646927Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "1. Alert zone security lead. [AUTO]\n2. Send routing nudges to affected fans. [NEEDS APPROVAL]\n3. Open auxiliary gate. [NEEDS APPROVAL]\n4. Queue PA announcement. [NEEDS APPROVAL]",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779520241455",
+    "timestamp": "2026-05-23T07:10:41.455087Z"
+  },
+  {
+    "type": "TEST",
+    "severity": "low",
+    "zone": "A_STAND",
+    "summary": "Supabase wiring smoke test",
+    "plan": "1. Verify it persists.",
+    "source": "pytest",
+    "id": "INC-1779519780867",
+    "timestamp": "2026-05-23T07:03:00.867379Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779519548989",
+    "timestamp": "2026-05-23T06:59:08.989791Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779519364666",
+    "timestamp": "2026-05-23T06:56:04.666974Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518987788",
+    "timestamp": "2026-05-23T06:49:47.788571Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518953714",
+    "timestamp": "2026-05-23T06:49:13.714434Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518892145",
+    "timestamp": "2026-05-23T06:48:12.145192Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518862067",
+    "timestamp": "2026-05-23T06:47:42.067706Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779518820000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518796887",
+    "timestamp": "2026-05-23T06:46:36.887826Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518762735",
+    "timestamp": "2026-05-23T06:46:02.735727Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518701554",
+    "timestamp": "2026-05-23T06:45:01.554068Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518666858",
+    "timestamp": "2026-05-23T06:44:26.858629Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518606299",
+    "timestamp": "2026-05-23T06:43:26.299974Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779518580000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518575328",
+    "timestamp": "2026-05-23T06:42:55.328923Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779518520000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518515227",
+    "timestamp": "2026-05-23T06:41:55.227923Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518480217",
+    "timestamp": "2026-05-23T06:41:20.217802Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518420034",
+    "timestamp": "2026-05-23T06:40:20.034084Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779518400000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518385580",
+    "timestamp": "2026-05-23T06:39:45.580883Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518321112",
+    "timestamp": "2026-05-23T06:38:41.112048Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518289812",
+    "timestamp": "2026-05-23T06:38:09.812813Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518224674",
+    "timestamp": "2026-05-23T06:37:04.674558Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518194534",
+    "timestamp": "2026-05-23T06:36:34.534431Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518134429",
+    "timestamp": "2026-05-23T06:35:34.429423Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: openrouter 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1779580800000\"},\"provider_name\":null}},\"user_id\":\"user_3E75e5YY2D9e8kLuV35nbL18MDw\"})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518104664",
+    "timestamp": "2026-05-23T06:35:04.664495Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "[AUTO] Dispatch medics to zone  \n[NEEDS APPROVAL] Clear nearest access corridor  \n[AUTO] Notify first-aid post  \n[NEEDS APPROVAL] Verify zone safety  \n[AUTO] Clear path for emergency access  \n[NEEDS APPROVAL] Confirm medical response readiness",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518040544",
+    "timestamp": "2026-05-23T06:34:00.544144Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "[AUTO] Open auxiliary gate  \n[NEEDS APPROVAL] Route fans  \n[AUTO] Alert zone security lead  \n[NEEDS APPROVAL] Queue PA announcement  \n[AUTO] Send routing nudges to affected fans",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779518009592",
+    "timestamp": "2026-05-23T06:33:29.592040Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 49.677778149s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517510721",
+    "timestamp": "2026-05-23T06:25:10.721654Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 51.222758565s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517449092",
+    "timestamp": "2026-05-23T06:24:09.092794Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 25.942450434s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517414391",
+    "timestamp": "2026-05-23T06:23:34.391022Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 56.091028989s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517384212",
+    "timestamp": "2026-05-23T06:23:04.212889Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 26.538629106s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '26s'}]}})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517353849",
+    "timestamp": "2026-05-23T06:22:33.849873Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 5.982531947s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517314337",
+    "timestamp": "2026-05-23T06:21:54.337309Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 16.246836866s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '16s'}]}})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517244120",
+    "timestamp": "2026-05-23T06:20:44.120250Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 51.083206349s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517209232",
+    "timestamp": "2026-05-23T06:20:09.232461Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 56.936472841s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517143362",
+    "timestamp": "2026-05-23T06:19:03.362198Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 27.010723312s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517113310",
+    "timestamp": "2026-05-23T06:18:33.310277Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 32.13257451s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517048199",
+    "timestamp": "2026-05-23T06:17:28.199256Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "1. Open auxiliary gate. [NEEDS APPROVAL]\n2. Send routing nudges to affected fans. [NEEDS APPROVAL]\n3. Alert zone security lead via email. [AUTO]\n4. Queue PA announcement. [NEEDS APPROVAL]",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779517019687",
+    "timestamp": "2026-05-23T06:16:59.687137Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 2.285872823s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779516958032",
+    "timestamp": "2026-05-23T06:15:58.032666Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 37.015126843s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779516923322",
+    "timestamp": "2026-05-23T06:15:23.322753Z"
+  },
+  {
+    "type": "MEDICAL",
+    "severity": "high",
+    "zone": "A_STAND",
+    "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.533725659s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}})\n1. [AUTO] Dispatch medics to zone\n2. [NEEDS APPROVAL] Clear nearest access corridor\n3. [AUTO] Notify first-aid post",
+    "vision": {
+      "density_pct": 91,
+      "trend": "rising_fast",
+      "anomalies": [
+        "rapid_movement",
+        "directional_chaos",
+        "possible_fall"
+      ],
+      "confidence": 0.79,
+      "summary": "High density with chaotic movement patterns. Possible person down. ESCALATE.",
+      "source": "cache_miss_file_missing",
+      "clip": "panic.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779516853770",
+    "timestamp": "2026-05-23T06:14:13.770912Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 17.521404403s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779516822771",
+    "timestamp": "2026-05-23T06:13:42.771808Z"
+  },
+  {
+    "type": "CROWD_SURGE",
+    "severity": "medium",
+    "zone": "N_STAND",
+    "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+    "plan": "(plan generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 22.419466371s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '22s'}]}})\n1. [NEEDS APPROVAL] Open auxiliary gate\n2. [NEEDS APPROVAL] Send routing nudges to affected fans\n3. [AUTO] Alert zone security lead via email\n4. [NEEDS APPROVAL] Queue PA announcement",
+    "vision": {
+      "density_pct": 78,
+      "trend": "rising",
+      "anomalies": [
+        "bottleneck_near_exit"
+      ],
+      "confidence": 0.86,
+      "summary": "Concourse approaching capacity. Bottleneck forming near exit. Recommend rerouting.",
+      "source": "cache_miss_file_missing",
+      "clip": "dense.mp4"
+    },
+    "source": "vision",
+    "id": "INC-1779516757864",
+    "timestamp": "2026-05-23T06:12:37.864811Z"
+  }
+]

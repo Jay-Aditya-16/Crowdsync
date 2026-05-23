@@ -1,0 +1,13 @@
+.env
+.git
+.gitignore
+__pycache__
+*.pyc
+.venv
+venv
+.streamlit/secrets.toml
+.DS_Store
+*.log
+tests/
+README.md
+deploy.sh

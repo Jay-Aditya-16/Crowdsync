@@ -1,0 +1,73 @@
+{
+  "sops": {
+    "CROWD_SURGE": {
+      "id": "CROWD_SURGE",
+      "title": "Predicted Crowd Surge",
+      "severity": "medium",
+      "trigger": "Match Context Agent predicts >70% zone fill within 10 min",
+      "actions": [
+        {"id": "open_aux_gate", "label": "Open auxiliary gate", "auto": false, "requires_approval": true},
+        {"id": "route_fans", "label": "Send routing nudges to affected fans", "auto": true, "requires_approval": true},
+        {"id": "alert_security", "label": "Alert zone security lead via email", "auto": true, "requires_approval": false},
+        {"id": "pa_announce", "label": "Queue PA announcement", "auto": false, "requires_approval": true}
+      ]
+    },
+    "LOST_CHILD": {
+      "id": "LOST_CHILD",
+      "title": "Lost Child Report",
+      "severity": "high",
+      "trigger": "Fan email mentions missing child / lost kid / can't find son/daughter",
+      "actions": [
+        {"id": "page_security_lead", "label": "Page security lead with last-known location", "auto": true, "requires_approval": false},
+        {"id": "lock_exit_gates", "label": "Soft-lock nearby exit gates", "auto": false, "requires_approval": true},
+        {"id": "reply_calm_fan", "label": "Send calm acknowledgment to fan with help-desk location", "auto": true, "requires_approval": false},
+        {"id": "log_incident", "label": "Log to incident database", "auto": true, "requires_approval": false}
+      ]
+    },
+    "MEDICAL": {
+      "id": "MEDICAL",
+      "title": "Medical Emergency",
+      "severity": "high",
+      "trigger": "Vision Agent detects fallen person OR fan email mentions medical issue",
+      "actions": [
+        {"id": "dispatch_medics", "label": "Dispatch medics to zone", "auto": true, "requires_approval": false},
+        {"id": "clear_path", "label": "Clear nearest access corridor", "auto": false, "requires_approval": true},
+        {"id": "notify_first_aid", "label": "Notify first-aid post", "auto": true, "requires_approval": false}
+      ]
+    },
+    "WEATHER_RAIN": {
+      "id": "WEATHER_RAIN",
+      "title": "Imminent Rain",
+      "severity": "medium",
+      "trigger": "Weather forecast >70% rain in next 15 min",
+      "actions": [
+        {"id": "warn_open_stands", "label": "Email fans in open-air stands to move under cover", "auto": true, "requires_approval": true},
+        {"id": "prep_covers", "label": "Notify groundstaff to prep covers", "auto": true, "requires_approval": false}
+      ]
+    },
+    "SECURITY_THREAT": {
+      "id": "SECURITY_THREAT",
+      "title": "Inbound Security Threat (phishing / malware)",
+      "severity": "high",
+      "trigger": "VirusTotal flags URL or attachment in inbound fan email as malicious",
+      "actions": [
+        {"id": "quarantine_message", "label": "Quarantine message; do not pass content to LLM", "auto": true, "requires_approval": false},
+        {"id": "alert_security_ops", "label": "Email security ops with full threat report", "auto": true, "requires_approval": false},
+        {"id": "block_sender_pattern", "label": "Add sender to deny-list", "auto": false, "requires_approval": true},
+        {"id": "log_incident", "label": "Log to incident database with threat intel", "auto": true, "requires_approval": false}
+      ]
+    },
+    "PANIC_BEHAVIOR": {
+      "id": "PANIC_BEHAVIOR",
+      "title": "Panic / Stampede Risk",
+      "severity": "critical",
+      "trigger": "Vision Agent detects panic behavior OR density >90% with rapid movement",
+      "actions": [
+        {"id": "escalate_human", "label": "ESCALATE to human operator immediately", "auto": true, "requires_approval": false},
+        {"id": "halt_inflow", "label": "Halt inflow to affected zone", "auto": false, "requires_approval": true},
+        {"id": "open_all_exits", "label": "Open all emergency exits in zone", "auto": false, "requires_approval": true},
+        {"id": "calm_announcement", "label": "Trigger calming PA announcement", "auto": false, "requires_approval": true}
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+streamlit==1.40.1
+# google-genai==0.3.0  # no longer used — switched to OpenRouter (see tools/gemini_client.py)
+agentmail==0.0.50
+python-dotenv==1.0.1
+pydantic==2.9.2
+opencv-python-headless==4.10.0.84
+pillow==10.4.0
+plotly==5.24.1
+requests==2.32.3
+firecrawl-py==2.7.1
+streamlit-autorefresh==1.0.1
+psycopg[binary]==3.2.3

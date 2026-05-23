@@ -1,0 +1,40 @@
+# Secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local caches (rebuildable, large, noisy)
+data/firecrawl_cache/
+data/browseruse_cache/
+data/clips/
+
+# Machine-specific runtime files (re-created at runtime)
+data/vapi_assistant.json
+data/state.json
+
+# Runtime artifacts
+*.log
+*.pid
