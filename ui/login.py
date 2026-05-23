@@ -45,13 +45,7 @@ def render_login() -> bool:
         )
         role = st.selectbox("Role", options=ROLES, index=0)
         password = st.text_input("Password", type="password", placeholder="any value — demo mode")
-        col1, col2 = st.columns(2)
-        submit = col1.form_submit_button("➡ Enter dashboard", use_container_width=True, type="primary")
-        demo = col2.form_submit_button("⚡ Quick demo (use jaygamertak@gmail.com)", use_container_width=True)
-
-    if demo:
-        _authenticate(name="Demo Operator", email="jaygamertak@gmail.com", role="Demo / Observer")
-        st.rerun()
+        submit = st.form_submit_button("➡ Enter dashboard", use_container_width=True, type="primary")
 
     if submit:
         if not name.strip():

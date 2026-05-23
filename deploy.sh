@@ -22,7 +22,9 @@ for kv in \
   "agentmail-api-key:$AGENTMAIL_API_KEY" \
   "virustotal-api-key:$VIRUSTOTAL_API_KEY" \
   "firecrawl-api-key:$FIRECRAWL_API_KEY" \
-  "browseruse-api-key:$BROWSER_USE_API_KEY" ; do
+  "browseruse-api-key:$BROWSER_USE_API_KEY" \
+  "vapi-public-key:$VAPI_PUBLIC_KEY" \
+  "vapi-private-key:$VAPI_PRIVATE_KEY" ; do
   NAME="${kv%%:*}"
   VAL="${kv#*:}"
   if gcloud secrets describe "$NAME" --project "$PROJECT" >/dev/null 2>&1; then
@@ -34,7 +36,7 @@ done
 
 # 2) Grant Cloud Run service account access to the secrets.
 SA="$(gcloud projects describe "$PROJECT" --format='value(projectNumber)')-compute@developer.gserviceaccount.com"
-for NAME in openrouter-api-key agentmail-api-key virustotal-api-key firecrawl-api-key browseruse-api-key; do
+for NAME in openrouter-api-key agentmail-api-key virustotal-api-key firecrawl-api-key browseruse-api-key vapi-public-key vapi-private-key; do
   gcloud secrets add-iam-policy-binding "$NAME" \
     --member="serviceAccount:$SA" \
     --role="roles/secretmanager.secretAccessor" \

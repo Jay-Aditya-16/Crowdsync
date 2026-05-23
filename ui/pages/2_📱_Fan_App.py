@@ -17,7 +17,7 @@ import streamlit as st
 from agents import fan_reports
 from ui.theme import inject_css, INK, ACCENT, ACCENT_SOFT, DIM, CARD, PAPER
 
-st.set_page_config(page_title="Stadnium AI — Fan App", layout="centered", page_icon="📱")
+st.set_page_config(page_title="CrowdSync — Fan App", layout="centered", page_icon="📱")
 inject_css()
 
 # ---------- Phone-shaped header ----------
@@ -28,7 +28,7 @@ st.markdown(
               display:flex; align-items:center; justify-content:center; font-weight:800; font-size:1.1rem;
               box-shadow: 0 4px 18px rgba(232,90,59,0.25);">📱</div>
   <div>
-    <div style="color:{DIM}; font-size:0.78rem;">Stadnium AI</div>
+    <div style="color:{DIM}; font-size:0.78rem;">CrowdSync</div>
     <div style="font-weight:700; font-size:1.5rem; color:{INK}; line-height:1.1;">Fan App</div>
   </div>
 </div>

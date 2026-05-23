@@ -240,7 +240,7 @@ def render_header(operator_name: str, operator_role: str) -> None:
     </div>
     <div>
       <div class="csyn-eyebrow">Stadium Command</div>
-      <div style="font-weight:700; font-size:1.25rem; color:{INK}; line-height:1.1;">Stadnium AI</div>
+      <div style="font-weight:700; font-size:1.25rem; color:{INK}; line-height:1.1;">CrowdSync</div>
     </div>
   </div>
 

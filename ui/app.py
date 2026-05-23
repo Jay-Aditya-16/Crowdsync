@@ -52,7 +52,7 @@ TICK_MS = 5000  # 5-second wall clock
 if not render_login():
     st.stop()
 
-st.set_page_config(page_title="Stadnium AI — Stadium Command", layout="wide", page_icon="🏟️")
+st.set_page_config(page_title="CrowdSync — Stadium Command", layout="wide", page_icon="🏟️")
 
 from ui.theme import inject_css, render_header
 inject_css()

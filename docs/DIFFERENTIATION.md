@@ -1,14 +1,14 @@
-# What makes Stadnium different
+# What makes CrowdSync different
 
-Stadium-management AI is a crowded category. This document compares Stadnium
+Stadium-management AI is a crowded category. This document compares CrowdSync
 to the four shapes of competition you'll see in any hackathon or RFP:
 **CCTV-heatmap dashboards, generic Cloud-Run agent demos, ticketing-app
 add-ons, and academic crowd-simulation packages.** For each, we name the gap
-Stadnium closes.
+CrowdSync closes.
 
 ## 1. vs CCTV-heatmap dashboards (the typical product)
 
-| Capability | Heatmap dashboards | Stadnium |
+| Capability | Heatmap dashboards | CrowdSync |
 |---|---|---|
 | Live density map | ✅ (operator-only) | ✅ + 3D extrusion + 2D OpenStreetMap overlay |
 | Surge prediction | ❌ reactive only | ✅ 5–10 min ahead from match state + weather |
@@ -20,14 +20,14 @@ Stadnium closes.
 | Voice-driven ops | ❌ | ✅ Vapi web widget + live context injection |
 
 **One-line differentiator**: heatmap dashboards *describe* what's happening;
-Stadnium *acts*, by closing the demand-side loop (nudging fans to spread out
+CrowdSync *acts*, by closing the demand-side loop (nudging fans to spread out
 before bottlenecks form) and surfacing probability-banded futures the operator
 can poke with What-If.
 
 ## 2. vs generic "Cloud Run + agents" hackathon demos
 
 Most submissions you'll see are a thin wrapper: `gradio + openai-agents` →
-"three agents talk to each other in a single prompt chain." Stadnium is
+"three agents talk to each other in a single prompt chain." CrowdSync is
 structurally different in three ways:
 
 1. **No agent-to-agent free messaging.** All cross-agent flow funnels through
@@ -51,7 +51,7 @@ structurally different in three ways:
 
 ## 3. vs ticketing-app add-ons (Paytm, BookMyShow features)
 
-| | Ticketing add-ons | Stadnium |
+| | Ticketing add-ons | CrowdSync |
 |---|---|---|
 | User identification | Phone-verified ticket holder | Anonymous handle (Fan App) |
 | Surveillance posture | Tracks every user | Aggregates by zone, never per-user |
@@ -61,14 +61,14 @@ structurally different in three ways:
 
 Ticketing apps win at *known-user personalisation* but they cannot reach
 non-ticketed staff, volunteers, or attendees who bought from a third party.
-Stadnium's Fan App accepts anyone with a phone and a willingness to
+CrowdSync's Fan App accepts anyone with a phone and a willingness to
 contribute — which is the right surface for a distributed sensor network.
 
 ## 4. vs academic crowd simulators (e.g. Vadere, MassMotion, PedSim)
 
 Academic simulators are physics-faithful — they model individual agent
 trajectories with social force, collision dynamics, and per-step
-acceleration. They run *offline* over hours. Stadnium's Monte Carlo runs
+acceleration. They run *offline* over hours. CrowdSync's Monte Carlo runs
 *online* every 5 s with:
 
 - A coarser model (per-zone density samples + per-gate throughput jitter)

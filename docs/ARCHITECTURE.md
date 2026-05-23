@@ -1,6 +1,6 @@
 # Architecture
 
-Stadnium AI is an 8-agent system with a Streamlit operator dashboard, a separate
+CrowdSync is an 8-agent system with a Streamlit operator dashboard, a separate
 fan-facing page, and a swap-in/swap-out tool layer. This document covers the
 runtime topology, message flow, state model, and refresh contracts.
 

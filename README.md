@@ -1,6 +1,6 @@
-# Stadnium AI — Multi-Agent Stadium Command Platform
+# CrowdSync — Multi-Agent Stadium Command Platform
 
-> **Codename:** CrowdSync · **Repo:** [github.com/Jay-Aditya-16/stadnium-ai](https://github.com/Jay-Aditya-16/stadnium-ai)
+> **Repo:** [github.com/Jay-Aditya-16/stadnium-ai](https://github.com/Jay-Aditya-16/stadnium-ai)
 > Built for **Build with AI: Agentic Premier League** (Google Cloud).
 
 ## 🚀 Live demo

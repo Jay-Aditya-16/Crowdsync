@@ -47,7 +47,7 @@ pathway exists through the fan inbox.
 
 **Why this matters:** The dominant pattern in agentic platforms is "let the
 LLM see everything, hope the system prompt resists injection." This is known
-to fail. Stadnium reduces the attack surface by *deciding URL safety
+to fail. CrowdSync reduces the attack surface by *deciding URL safety
 deterministically* before the LLM gets a chance to be confused by it.
 
 Implemented in `tools/virustotal_client.py` (154 LOC) and called from
