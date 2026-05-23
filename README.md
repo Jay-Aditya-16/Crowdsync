@@ -1,6 +1,6 @@
 # CrowdSync — Multi-Agent Stadium Command Platform
 
-> **Repo:** [github.com/Jay-Aditya-16/stadnium-ai](https://github.com/Jay-Aditya-16/stadnium-ai)
+> **Repo:** [github.com/Jay-Aditya-16/Crowdsync](https://github.com/Jay-Aditya-16/Crowdsync)
 > Built for **Build with AI: Agentic Premier League** (Google Cloud).
 
 ## 🚀 Live demo
@@ -160,7 +160,7 @@ inbox. Full threat model in [`docs/SECURITY.md`](docs/SECURITY.md).
 ## Run locally
 
 ```bash
-git clone https://github.com/Jay-Aditya-16/stadnium-ai.git
+git clone https://github.com/Jay-Aditya-16/Crowdsync.git
 cd stadnium-ai
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
