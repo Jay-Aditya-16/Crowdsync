@@ -320,6 +320,139 @@ else:
 
 
 # ---------------------------------------------------------------------------
+# Voice + PA — pinned at the top so it's the first thing the operator sees
+# ---------------------------------------------------------------------------
+
+st.divider()
+voice_col, broad_col = st.columns([3, 2])
+
+with voice_col:
+    st.subheader("🎙️ Voice Assistant")
+    st.caption(
+        "Talk to the system out loud. It hears you, knows what's happening in the stadium right now, "
+        "and answers back in a calm voice. Updates with the latest incidents every few minutes."
+    )
+    if vapi_client.public_key():
+        assistant_id = maybe_run(
+            "vapi_assistant",
+            ttl_seconds=3600,
+            fn=lambda: vapi_client.get_or_create_assistant(
+                vapi_client.build_live_context(commander, intel, match_context, whatif_simulator, red_cell)
+            ),
+            expensive=False,
+        )
+        def _refresh_vapi_context():
+            live = vapi_client.build_live_context(commander, intel, match_context, whatif_simulator, red_cell)
+            vapi_client.update_assistant_context(live, assistant_id=assistant_id)
+            return {"ok": True, "at": time.time()}
+        maybe_run("vapi_context", ttl_seconds=180, fn=_refresh_vapi_context, expensive=False)
+
+        components.html(
+            vapi_client.web_widget_html(
+                assistant_id=assistant_id,
+                operator_name=st.session_state.get("operator_name", "Operator"),
+            ),
+            height=380,
+        )
+
+        with st.expander("📞 Call someone with an urgent alert", expanded=False):
+            import os as _os
+            phone_id_set = bool(_os.getenv("VAPI_PHONE_NUMBER_ID"))
+            if not phone_id_set:
+                st.warning(
+                    "Outbound calls aren't set up yet. Add a phone number ID to enable real calls."
+                )
+
+            critical_incidents = [
+                i for i in incidents_recent
+                if i.get("severity") in ("high", "critical")
+            ][:5]
+            default_summary = ""
+            if critical_incidents:
+                top = critical_incidents[0]
+                default_summary = (
+                    f"{(top.get('type') or 'incident').replace('_',' ').title()} "
+                    f"in {top.get('zone','unknown zone')}. "
+                    f"{(top.get('summary') or '')[:140]}"
+                )
+
+            to_number = st.text_input(
+                "Phone number (with country code, e.g. +14155550123)",
+                value=st.session_state.get("vapi_last_to_number", ""),
+                key="vapi_outbound_to",
+            )
+            summary = st.text_area(
+                "What the call should say",
+                value=default_summary,
+                height=80,
+                key="vapi_outbound_summary",
+            )
+            op_name = st.session_state.get("operator_name", "operator")
+
+            if st.button("📞 Call now", disabled=not (to_number and summary), use_container_width=True):
+                with st.spinner("Dialing…"):
+                    result = vapi_client.place_outbound_alert(
+                        to_number=to_number.strip(),
+                        incident_summary=summary.strip(),
+                        operator_name=op_name,
+                    )
+                if result.get("ok"):
+                    st.session_state.vapi_last_to_number = to_number.strip()
+                    st.success(f"Call placed. Reference: {result.get('call_id','?')}")
+                else:
+                    st.error(f"Call failed: {result.get('error','unknown error')}")
+    else:
+        st.error("Voice assistant not set up.")
+
+with broad_col:
+    st.subheader("📢 Stadium Announcement")
+    st.session_state.tts_enabled = st.toggle("Auto-announce urgent alerts", value=st.session_state.tts_enabled)
+    incidents_to_announce = [i for i in incidents_recent if i.get("severity") in ("high", "critical")]
+    if incidents_to_announce:
+        latest = incidents_to_announce[0]
+        text = f"Attention. {latest.get('type','alert').replace('_',' ')} in {latest.get('zone','the stadium')}. {(latest.get('summary','') or '')[:140]}"
+        st.code(text[:200], language="text")
+        col_a, col_b = st.columns(2)
+        if col_a.button("📢 Broadcast now", use_container_width=True):
+            safe_text = text.replace("`", "'").replace("\\", "")
+            components.html(
+                f"""
+                <script>
+                try {{
+                  const u = new SpeechSynthesisUtterance({json.dumps(safe_text)});
+                  u.rate = 0.95; u.pitch = 1.0; u.volume = 1.0;
+                  window.speechSynthesis.cancel();
+                  window.speechSynthesis.speak(u);
+                }} catch(e) {{ console.error(e); }}
+                </script>
+                """,
+                height=0,
+            )
+        if col_b.button("🔇 Stop", use_container_width=True):
+            components.html(
+                "<script>window.speechSynthesis.cancel();</script>",
+                height=0,
+            )
+        if st.session_state.tts_enabled and latest.get("severity") == "critical" and latest.get("id") != st.session_state.last_announced_incident_id:
+            st.session_state.last_announced_incident_id = latest.get("id")
+            safe_text = text.replace("`", "'").replace("\\", "")
+            components.html(
+                f"""<script>
+                const u = new SpeechSynthesisUtterance({json.dumps(safe_text)});
+                u.rate = 0.95; u.pitch = 1.0; u.volume = 1.0;
+                window.speechSynthesis.cancel();
+                window.speechSynthesis.speak(u);
+                </script>""",
+                height=0,
+            )
+            st.success("📢 Auto-announcement played for new urgent alert")
+    else:
+        st.caption("Nothing urgent to announce right now.")
+
+st.divider()
+
+
+# ---------------------------------------------------------------------------
 # Sidebar — demo controls (force-refresh + scenario picker)
 # ---------------------------------------------------------------------------
 
@@ -666,136 +799,6 @@ with final_cols[1]:
         st.caption("Database not connected — history disabled.")
 
 st.divider()
-voice_col, broad_col = st.columns([3, 2])
-
-with voice_col:
-    st.subheader("🎙️ Voice Assistant")
-    st.caption(
-        "Talk to the system out loud. It hears you, knows what's happening in the stadium right now, "
-        "and answers back in a calm voice. Updates with the latest incidents every few minutes."
-    )
-    if vapi_client.public_key():
-        # Ensure the Vapi assistant exists (one-shot create on first session)
-        assistant_id = maybe_run(
-            "vapi_assistant",
-            ttl_seconds=3600,
-            fn=lambda: vapi_client.get_or_create_assistant(
-                vapi_client.build_live_context(commander, intel, match_context, whatif_simulator, red_cell)
-            ),
-            expensive=False,
-        )
-        # Periodically refresh the assistant's system prompt with current state
-        def _refresh_vapi_context():
-            live = vapi_client.build_live_context(commander, intel, match_context, whatif_simulator, red_cell)
-            vapi_client.update_assistant_context(live, assistant_id=assistant_id)
-            return {"ok": True, "at": time.time()}
-        maybe_run("vapi_context", ttl_seconds=180, fn=_refresh_vapi_context, expensive=False)
-
-        components.html(
-            vapi_client.web_widget_html(
-                assistant_id=assistant_id,
-                operator_name=st.session_state.get("operator_name", "Operator"),
-            ),
-            height=380,
-        )
-
-        with st.expander("📞 Call someone with an urgent alert", expanded=False):
-            import os as _os
-            phone_id_set = bool(_os.getenv("VAPI_PHONE_NUMBER_ID"))
-            if not phone_id_set:
-                st.warning(
-                    "Outbound calls aren't set up yet. Add a phone number ID to enable real calls."
-                )
-
-            critical_incidents = [
-                i for i in incidents_recent
-                if i.get("severity") in ("high", "critical")
-            ][:5]
-            default_summary = ""
-            if critical_incidents:
-                top = critical_incidents[0]
-                default_summary = (
-                    f"{(top.get('type') or 'incident').replace('_',' ').title()} "
-                    f"in {top.get('zone','unknown zone')}. "
-                    f"{(top.get('summary') or '')[:140]}"
-                )
-
-            to_number = st.text_input(
-                "Phone number (with country code, e.g. +14155550123)",
-                value=st.session_state.get("vapi_last_to_number", ""),
-                key="vapi_outbound_to",
-            )
-            summary = st.text_area(
-                "What the call should say",
-                value=default_summary,
-                height=80,
-                key="vapi_outbound_summary",
-            )
-            op_name = st.session_state.get("operator_name", "operator")
-
-            if st.button("📞 Call now", disabled=not (to_number and summary), use_container_width=True):
-                with st.spinner("Dialing…"):
-                    result = vapi_client.place_outbound_alert(
-                        to_number=to_number.strip(),
-                        incident_summary=summary.strip(),
-                        operator_name=op_name,
-                    )
-                if result.get("ok"):
-                    st.session_state.vapi_last_to_number = to_number.strip()
-                    st.success(f"Call placed. Reference: {result.get('call_id','?')}")
-                else:
-                    st.error(f"Call failed: {result.get('error','unknown error')}")
-    else:
-        st.error("Voice assistant not set up.")
-
-with broad_col:
-    st.subheader("📢 Stadium Announcement")
-    st.session_state.tts_enabled = st.toggle("Auto-announce urgent alerts", value=st.session_state.tts_enabled)
-    incidents_to_announce = [i for i in incidents_recent if i.get("severity") in ("high", "critical")]
-    if incidents_to_announce:
-        latest = incidents_to_announce[0]
-        text = f"Attention. {latest.get('type','alert').replace('_',' ')} in {latest.get('zone','the stadium')}. {(latest.get('summary','') or '')[:140]}"
-        st.code(text[:200], language="text")
-        col_a, col_b = st.columns(2)
-        if col_a.button("📢 Broadcast now", use_container_width=True):
-            safe_text = text.replace("`", "'").replace("\\", "")
-            components.html(
-                f"""
-                <script>
-                try {{
-                  const u = new SpeechSynthesisUtterance({json.dumps(safe_text)});
-                  u.rate = 0.95; u.pitch = 1.0; u.volume = 1.0;
-                  window.speechSynthesis.cancel();
-                  window.speechSynthesis.speak(u);
-                }} catch(e) {{ console.error(e); }}
-                </script>
-                """,
-                height=0,
-            )
-        if col_b.button("🔇 Stop", use_container_width=True):
-            components.html(
-                "<script>window.speechSynthesis.cancel();</script>",
-                height=0,
-            )
-        # Auto-broadcast new critical incidents (one-shot per incident)
-        if st.session_state.tts_enabled and latest.get("severity") == "critical" and latest.get("id") != st.session_state.last_announced_incident_id:
-            st.session_state.last_announced_incident_id = latest.get("id")
-            safe_text = text.replace("`", "'").replace("\\", "")
-            components.html(
-                f"""<script>
-                const u = new SpeechSynthesisUtterance({json.dumps(safe_text)});
-                u.rate = 0.95; u.pitch = 1.0; u.volume = 1.0;
-                window.speechSynthesis.cancel();
-                window.speechSynthesis.speak(u);
-                </script>""",
-                height=0,
-            )
-            st.success("📢 Auto-announcement played for new urgent alert")
-    else:
-        st.caption("Nothing urgent to announce right now.")
-
-
-st.divider()
 priv_col, fan_col = st.columns([1, 1])
 
 with priv_col:
@@ -848,42 +851,11 @@ with priv_col:
         st.caption("Click *Build* to make a shareable report.")
 
 with fan_col:
-    st.subheader("🎮 Crowd-Sourced Reports")
+    st.subheader("🎮 Incoming Fan Reports")
     st.caption(
-        "Like a fan app inside the dashboard. Anyone in the stadium can report what they see — "
-        "the system gives them points, and urgent reports go straight to the response team."
+        "Live feed from the **📱 Fan App** (separate page — open it from the sidebar). "
+        "Attendees report issues from their phones; urgent reports auto-route into incidents."
     )
-    with st.form("fan_report_form", clear_on_submit=True):
-        c1, c2 = st.columns([1, 1])
-        reporter_id = c1.text_input("Your name", value=st.session_state.get("fan_handle", "fan_ravi"))
-        category = c2.selectbox(
-            "What kind of issue?",
-            list(fan_reports.CATEGORY_POINTS.keys()),
-            index=0,
-        )
-        c3, c4 = st.columns([1, 1])
-        zone = c3.text_input("Where (section or gate)", value="A_STAND")
-        verified = c4.toggle("Volunteer confirmed", value=False, help="2× points if a stadium volunteer has confirmed this on-site.")
-        summary_text = st.text_area("What did you see?", height=70, placeholder="Bottleneck forming near restrooms behind row 18…")
-
-        submitted = st.form_submit_button("📤 Submit report", use_container_width=True)
-        if submitted:
-            if not summary_text.strip():
-                st.warning("Add a quick description before submitting.")
-            else:
-                st.session_state.fan_handle = reporter_id
-                rec = fan_reports.submit_report(
-                    reporter_id=reporter_id,
-                    category=category,
-                    zone=zone,
-                    summary=summary_text,
-                    verified=verified,
-                )
-                badge = "🚨" if rec.get("routed_to_commander") else "✅"
-                st.success(
-                    f"{badge} +{rec['points_awarded']} points · {rec['severity']} priority"
-                    + (" · sent to response team" if rec.get("routed_to_commander") else "")
-                )
 
     fr_stats = fan_reports.stats()
     s1, s2, s3 = st.columns(3)
